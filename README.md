@@ -33,6 +33,7 @@
 * **Live Demo:** [https://proofofskills.netlify.app/](https://proofofskills.netlify.app/)
 * **Video Demonstration:** [Watch Loom Walkthrough](https://www.loom.com/share/6d37ea2e38ef4726915a58d3785903cb)
 * **Product Screenshots:** [Google Drive Asset Folder](https://drive.google.com/drive/folders/1ncYKprAGfMAx2uVNcaLnpNY_WjfTU44Z?usp=sharing)
+* **Presentation Deck:** [View Google Slides](https://docs.google.com/presentation/d/1aaMvjMOYwVrKef8d_ENkepoQxciGFe9XLcAJ-PouTQE/edit?usp=sharing)
 
 ---
 
