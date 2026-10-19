@@ -8,79 +8,54 @@
 
 ---
 
-## 📌 Executive Summary & Problem Context
+## 📌 Problem Statement & Proposed Solution
 
-In today's recruitment and technical evaluation landscape, traditional credentialing faces critical bottlenecks:
+### Problem Statement
+In technical recruitment and developer evaluation, over 70% of entry-level resumes, online certificates, and portfolio repositories contain tutorial-cloned templates, boilerplate forks, or synthetic scripts. Recruiters waste hundreds of manual screening hours filtering inflated profiles, while self-taught developers lack structured, objective feedback on why their code fails production benchmarks.
 
-* **Resume Inflation & Synthetic Code:** Over 70% of junior technical resumes, online certifications, and portfolio repos contain boilerplate forks, template clones, or AI-generated scripts that mask actual competence.
-* **Manual Screening Fatigue:** Engineering teams and hiring managers spend hundreds of hours manually reviewing unverified candidate repositories, sorting through trivial projects and inflated CV claims.
-* **Lack of Actionable Feedback for Self-Taught Talent:** Deserving self-taught developers and junior engineers lack objective, metric-driven feedback on why their code fails production standards or how to bridge the gap.
-* **Algorithmic Bias:** Traditional screening filters disproportionately penalize candidates lacking elite academic credentials, ignoring raw open-source contribution and code quality.
-
----
-
-## 💡 The Solution: ProofOfSkill
-
-**ProofOfSkill** introduces an automated audit layer that evaluates verifiable developer activity directly from public version-control telemetry. Instead of relying on buzzwords, it measures code originality, compares claimed expertise against concrete commits, diagnoses architectural blind spots, and delivers side-by-side benchmark intelligence.
+### Proposed Solution
+**ProofOfSkill** replaces resume buzzwords with automated, Explainable AI audits directly from live GitHub codebase telemetry. It detects bot/cloned code, matches self-reported resume skills against concrete commits, diagnoses production blind-spots, and executes head-to-head developer evaluations with zero demographic bias.
 
 ---
 
-## 🚀 Key Architectural Features
+## 🤖 AI Methodology, Model Names & API Usage
 
-### 1. 🔍 Authenticity & Fork Analysis Engine
-* Differentiates authentic source code from forked/cloned template repositories.
-* Computes an **Authenticity Rate** to identify automated commit patterns and low-effort tutorial replication.
-* Features a transparent **Score Breakdown Drawer** detailing exact negative factors (e.g., repository depth, forked ratio, metadata completeness) alongside an actionable improvement roadmap.
+* **AI Architecture & Methodology:** 
+  * **Explainable AI (XAI) Framework:** Implements transparent heuristic scoring trees and deterministic telemetry auditing, ensuring zero black-box rejections.
+  * **Natural Language Semantic Matcher:** Performs tokenization and fuzzy-match verification between claimed CV skills and repository metadata (package manifests, repository descriptions, linguistic distributions).
+  * **Syntactic Authenticity Detection:** Evaluates parent-child commit lineage and repository source-to-fork ratios to compute code authenticity.
 
-### 2. 🧭 AI Code Blind-Spot Mentor (Continuous Learning)
-* Automatically parses repositories for missing production-grade engineering practices.
-* Flags absence of automated test suites (Jest, Mocha, Cypress), CI/CD pipelines, containerization (Docker), or architectural versatility.
-* Provides structured, step-by-step technical recommendations for portfolio enhancement.
-
-### 3. 📄 Resume Claim vs. Reality Matcher
-* Cross-references user-provided CV skill keywords (e.g., `React, Docker, Python, AWS`) against verifiable commit history and repository linguistic footprints.
-* Calculates a real-time **Skill Match Percentage** and isolates unverified claims that lack concrete codebase evidence.
-
-### 4. ⚔️ Advanced Developer Head-to-Head Benchmarking
-* Side-by-side evaluation engine for two developer profiles.
-* Benchmarks public repository volume, cumulative star endorsements, code authenticity rates, and commit cadence.
-* Generates an automated **Smart Comparison Score & Decision Summary** highlighting key technical edges.
-* Includes a **1-click PNG Scorecard Exporter** for streamlined recruitment sharing.
-
-### 5. ⚖️ Explainable & Responsible AI Guarantee
-* Eliminates demographic, age, gender, and academic pedigree bias by assessing candidates strictly on verifiable codebase telemetry.
-* Employs Explainable AI (XAI) principles: every score reduction is backed by explicit factors and remediation strategies rather than opaque rejection filters.
-
-### 6. ⛓️ Cryptographic Proof Simulation
-* Generates deterministic audit hashes (Sepolia Testnet architecture) creating a tamper-evident record of evaluated telemetry.
+* **Models, Engines & APIs Used:**
+  * **GitHub REST API v3:** Ingests live telemetry, commit history, repository trees, and linguistic byte arrays.
+  * **Gemini Flash 1.5 Architecture (Target Ingestion Pipeline):** Powers the contextual code-review heuristics and dynamic technical interview generation.
+  * **Sepolia Testnet Hash Engine:** Cryptographic hashing layer simulating tamper-evident on-chain verification logs.
+  * **Responsible AI & Fairness Guardrail:** Complete data isolation preventing demographical, gender, age, or institutional bias during candidate scoring.
 
 ---
 
-## 📊 Measurable Impact & Results
+## 🚀 Core Features
 
-| Evaluation Metric | Legacy Hiring / Review Process | With ProofOfSkill |
-| :--- | :--- | :--- |
-| **Initial Screening Time** | 20–30 minutes per candidate | < 15 seconds automated audit |
-| **Verification Basis** | Self-reported CV text & claims | Ground-truth repository telemetry |
-| **Originality Detection** | Manual inspection of commit logs | Automated source vs. fork ratio analysis |
-| **Candidate Feedback** | Generic rejection emails | Actionable blind-spot remediation guide |
-| **Evaluation Bias** | High (influence of pedigree/location) | 0% demographic bias (code-only metrics) |
+1. **Authenticity & Anti-Cheat Engine:** Evaluates original source vs. forked repositories, calculating an Authenticity Score with a transparent root-cause breakdown.
+2. **AI Code Blind-Spot Mentor:** Automatically identifies missing production engineering standards (testing frameworks, CI/CD pipelines, containerization) and provides a career improvement roadmap.
+3. **Resume Claim vs. Reality Matcher:** Cross-checks claimed CV skills against verifiable commits to calculate an accurate Skill Match Percentage.
+4. **Head-to-Head Comparison:** Enables side-by-side candidate evaluations with automated AI verdicts and downloadable PNG scorecards.
+5. **On-Chain Cryptographic Proof:** Simulates tamper-proof proof hashes on Ethereum Sepolia testnet architecture.
 
 ---
 
 ## 🛠️ Technology Stack
 
 * **Frontend:** React 19, Vite, Tailwind CSS
-* **Icons & Visuals:** Lucide React, Canvas Confetti
-* **Export Utilities:** HTML-to-Image (PNG generation)
-* **Data Layer:** GitHub REST API v3 (Client-side asynchronous pipeline)
-* **Deployment & CI:** Netlify Edge Network
+* **Data Layer:** GitHub REST API v3 (Asynchronous client pipeline)
+* **Visuals & UI:** Lucide React, Canvas Confetti
+* **Export Engine:** HTML-to-Image (PNG generation)
+* **Hosting & CI/CD:** Netlify Edge Network
 
 ---
 
-## ⚡ Local Setup & Development
+## ⚡ Setup & Installation Instructions
 
-Follow these steps to run the application locally:
+Follow these steps to run the project locally on your machine:
 
 ### 1. Clone the repository
 ```bash
