@@ -8,6 +8,34 @@
 
 ---
 
+## 👥 Team: Night Warriors
+
+* **Alizah Fatima (Team Lead & Full-Stack Architect):**
+  * Overall project leadership, system architecture, and core codebase development.
+  * GitHub telemetry data ingestion pipeline, Authenticity Engine, and Resume vs Reality Matcher implementation.
+  * AI Code Blind-Spot Mentor algorithms and responsive React 19 + Tailwind UI dashboard designing.
+  * Netlify deployment pipeline, repository maintenance, and overall project execution.
+
+* **Masum Abbas (Quality Assurance & Project Support):**
+  * Comprehensive application testing, edge-case analysis, and debugging support.
+  * Single audit and head-to-head comparison features reliability verification.
+  * Rate-limit handling and overall functional testing technical assistance.
+
+* **Misbah Rehmat (Product Presentation & Media Production):**
+  * Product video walkthrough structuring and Loom demonstration video creation.
+  * Presentation deck (PPT) designing and problem-solution workflow storytelling.
+  * Screenshots, asset organization, and documentation visuals preparation.
+
+---
+
+## 📸 Product Screenshots & Media
+
+* **Live Demo:** [https://proofofskills.netlify.app/](https://proofofskills.netlify.app/)
+* **Video Demonstration:** [Watch Loom Walkthrough](https://www.loom.com/share/6d37ea2e38ef4726915a58d3785903cb)
+* **Product Screenshots:** [Google Drive Asset Folder](https://drive.google.com/drive/folders/1ncYKprAGfMAx2uVNcaLnpNY_WjfTU44Z?usp=sharing)
+
+---
+
 ## 📌 Problem Statement & Proposed Solution
 
 ### Problem Statement
@@ -54,8 +82,6 @@ In technical recruitment and developer evaluation, over 70% of entry-level resum
 ---
 
 ## ⚡ Setup & Installation Instructions
-
-Follow these steps to run the project locally on your machine:
 
 ### 1. Clone the repository
 ```bash
